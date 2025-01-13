@@ -1,4 +1,6 @@
-**Quiz App** 🧠  
+#### Deployed link = https://snazzy-halva-4613ac.netlify.app
+
+# Quiz App 🧠  
 A dynamic and interactive quiz application built with React, utilizing the Open Trivia Database API. Users can create quizzes with customizable options, including category, difficulty, and the number of questions.
 
 **Features** 🚀  
