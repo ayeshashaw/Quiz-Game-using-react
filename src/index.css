@@ -1,0 +1,104 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(13, 13, 81);
+  margin: 20px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+}
+
+select,
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.correct {
+  background-color: green;
+  color: #fff;
+}
+
+button.wrong {
+  background-color: red;
+  color: #fff;
+}
+
+.options {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.ScoreCard {
+  margin: 50px auto;
+  text-align: center;
+  background-color: burlywood;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  form {
+    gap: 15px;
+  }
+}
